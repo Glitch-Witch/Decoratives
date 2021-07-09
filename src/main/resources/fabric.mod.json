@@ -1,38 +1,32 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "decoratives",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Decoratives",
+  "description": "Adds furniture to minecraft",
   "authors": [
-    "Me!"
+    "GlitchWitch"
   ],
-  "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
-  },
+  "contact": { "sources": "https://github.com/Glitch-Witch/FurnitureMod-Fabric" },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "All Rights Reserved",
+  "icon": "assets/decoratives/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "glitchwitch.decoratives.Decoratives"
+    ],
+    "client": [
+      "glitchwitch.decoratives.DecorativesClient"
     ]
   },
-  "mixins": [
-    "modid.mixins.json"
-  ],
 
   "depends": {
     "fabricloader": ">=0.11.3",
     "fabric": "*",
     "minecraft": "1.17.x",
     "java": ">=16"
-  },
-  "suggests": {
-    "another-mod": "*"
   }
 }
