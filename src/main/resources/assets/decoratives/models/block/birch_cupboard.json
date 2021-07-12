@@ -1,0 +1,8 @@
+{
+	"parent": "decoratives:block/parents/plain_cupboard_glass_doors",
+	"textures": {
+		"0": "minecraft:block/birch_planks",
+		"1": "decoratives:block/cupboard_glass",
+		"particle": "minecraft:block/birch_planks"
+	}
+}

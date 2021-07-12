@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "facing=north,open=false": { "model":  "decoratives:block/oak_cupboard" },
+    "facing=east,open=false": { "model":  "decoratives:block/oak_cupboard", "y": 90 },
+    "facing=south,open=false": { "model":  "decoratives:block/oak_cupboard", "y": 180 },
+    "facing=west,open=false": { "model":  "decoratives:block/oak_cupboard", "y": 270 },
+
+    "facing=north,open=true": { "model":  "decoratives:block/oak_cupboard_open" },
+    "facing=east,open=true": { "model":  "decoratives:block/oak_cupboard_open", "y": 90 },
+    "facing=south,open=true": { "model":  "decoratives:block/oak_cupboard_open", "y": 180 },
+    "facing=west,open=true": { "model":  "decoratives:block/oak_cupboard_open", "y": 270 }
+  }
+}

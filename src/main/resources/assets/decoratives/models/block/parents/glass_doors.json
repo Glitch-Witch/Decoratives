@@ -1,0 +1,29 @@
+{
+    "ambientocclusion": false,
+    "textures": {
+		"0": "decoratives:block/cupboard_glass",
+		"particle": "decoratives:block/cupboard_glass"
+	},
+    "elements": [
+		{
+			"name": "glass_door_east",
+			"from": [9, 1, 12.2],
+			"to": [15, 15, 12.2],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16, 0, 12]},
+			"faces": {
+				"north": {"uv": [9, 1, 15, 15], "texture": "#0"},
+				"south": {"uv": [9, 1, 15, 15], "texture": "#0"}
+			}
+		},
+		{
+			"name": "glass_door_west",
+			"from": [1, 1, 12.2],
+			"to": [7, 15, 12.2],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 12]},
+			"faces": {
+				"north": {"uv": [1, 1, 7, 15], "texture": "#0"},
+				"south": {"uv": [1, 1, 7, 15], "texture": "#0"}
+			}
+		}
+  ]
+}
