@@ -1,6 +1,7 @@
 package glitchwitch.decoratives;
 
 import glitchwitch.decoratives.blocks.Cupboard;
+import glitchwitch.decoratives.blocks.TiledRoof;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
@@ -11,10 +12,12 @@ import net.minecraft.util.registry.Registry;
 public class BlockRegistry {
 	public static final Cupboard BIRCH_CUPBOARD = new Cupboard();
 	public static final Cupboard OAK_CUPBOARD = new Cupboard();
+	public static final TiledRoof TILED_ROOF = new TiledRoof();
 
 	public static void registerBlocks() {
 		registerWithBlockItem("birch_cupboard", BIRCH_CUPBOARD);
 		registerWithBlockItem("oak_cupboard", OAK_CUPBOARD);
+		registerWithBlockItem("tiled_roof", TILED_ROOF);
 	}
 
 	@SuppressWarnings("unused")
