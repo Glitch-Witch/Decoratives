@@ -1,10 +1,9 @@
 {
 	"credit": "Made with Blockbench",
-	"ambientocclusion": false,
 	"textures": {
 		"0": "minecraft:block/oak_planks",
 		"1": "decoratives:block/cupboard_glass",
-		"particle": "minecraft:block/oak_planks"
+		"particle": "#0"
 	},
 	"elements": [
 		{

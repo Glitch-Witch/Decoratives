@@ -19,7 +19,7 @@
       "glitchwitch.decoratives.Decoratives"
     ],
     "client": [
-      "glitchwitch.decoratives.DecorativesClient"
+      "glitchwitch.decoratives.client.DecorativesClient"
     ]
   },
 

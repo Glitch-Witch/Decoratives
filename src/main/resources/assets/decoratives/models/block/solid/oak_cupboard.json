@@ -1,0 +1,6 @@
+{
+	"parent": "decoratives:block/parents/cupboard_with_knobs",
+	"textures": {
+		"0": "minecraft:block/oak_planks"
+	}
+}

@@ -1,0 +1,27 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "decoratives:block/cupboard_glass",
+		"particle": "#0"
+	},
+    "elements": [
+		{
+			"from": [16.2, 1, 13],
+			"to": [16.2, 15, 19],
+			"rotation": {"angle": 45, "axis": "y", "origin": [16, 0, 12]},
+			"faces": {
+				"east": {"uv": [9, 1, 15, 15], "texture": "#0"},
+				"west": {"uv": [1, 1, 7, 15], "texture": "#0"}
+			}
+		},
+		{
+			"from": [-0.2, 1, 13],
+			"to": [-0.2, 15, 19],
+			"rotation": {"angle": -45, "axis": "y", "origin": [0, 0, 12]},
+			"faces": {
+				"east": {"uv": [9, 1, 15, 15], "texture": "#0"},
+				"west": {"uv": [1, 1, 7, 15], "texture": "#0"}
+			}
+		}
+	]
+}

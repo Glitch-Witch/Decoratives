@@ -1,8 +1,8 @@
 {
-    "ambientocclusion": false,
-    "textures": {
+	"credit": "Made with Blockbench",
+	"textures": {
 		"0": "decoratives:block/cupboard_glass",
-		"particle": "decoratives:block/cupboard_glass"
+		"particle": "#0"
 	},
     "elements": [
 		{
@@ -25,5 +25,5 @@
 				"south": {"uv": [1, 1, 7, 15], "texture": "#0"}
 			}
 		}
-  ]
+	]
 }
