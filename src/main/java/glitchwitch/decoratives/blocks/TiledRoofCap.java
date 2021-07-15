@@ -12,9 +12,8 @@ import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.world.BlockView;
 import org.jetbrains.annotations.Nullable;
 
-public class TiledRoof extends HorizontalFacingBlock {
-
-	public TiledRoof() {
+public class TiledRoofCap extends HorizontalFacingBlock {
+	public TiledRoofCap() {
 		super(FabricBlockSettings.of(Material.WOOD).hardness(1f).nonOpaque());
 		setDefaultState(
 			this.stateManager.getDefaultState()
@@ -25,14 +24,7 @@ public class TiledRoof extends HorizontalFacingBlock {
 	@Override
 	@SuppressWarnings("deprecation")
 	public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
-		Direction dir = state.get(FACING);
-		return switch (dir) {
-			case NORTH -> DecorativesShapes.STAIR_FACING_NORTH;
-			case SOUTH -> DecorativesShapes.STAIR_FACING_SOUTH;
-			case EAST -> DecorativesShapes.STAIR_FACING_EAST;
-			case WEST -> DecorativesShapes.STAIR_FACING_WEST;
-			default -> DecorativesShapes.BASIC_FULL_BLOCK;
-		};
+		return DecorativesShapes.BASIC_SLAB;
 	}
 
 	@Override
@@ -46,5 +38,4 @@ public class TiledRoof extends HorizontalFacingBlock {
 	public BlockState getPlacementState(ItemPlacementContext ctx) {
 		return this.getDefaultState().with(Properties.HORIZONTAL_FACING, ctx.getPlayerFacing());
 	}
-
 }

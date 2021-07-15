@@ -8,9 +8,7 @@ import net.minecraft.util.Identifier;
 
 public class Decoratives implements ModInitializer {
 	public static final String MODID = "decoratives";
-	public static final ItemGroup IG = FabricItemGroupBuilder.build(
-		new Identifier(Decoratives.MODID, "general"),
-		() -> new ItemStack(BlockRegistry.BIRCH_CUPBOARD));
+	public static final ItemGroup IG = FabricItemGroupBuilder.build(asId("general"), ()-> new ItemStack(BlockRegistry.BIRCH_CUPBOARD));
 
 	@Override
 	public void onInitialize() {
