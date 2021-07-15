@@ -1,0 +1,7 @@
+{
+  "parent": "decoratives:block/parents/shutters_top_hinge",
+  "textures": {
+    "top": "minecraft:block/oak_planks",
+    "particle": "minecraft:block/oak_planks"
+  }
+}

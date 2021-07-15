@@ -1,0 +1,7 @@
+{
+  "parent": "decoratives:block/parents/shutters_top",
+  "textures": {
+    "top": "minecraft:block/acacia_planks",
+    "particle": "minecraft:block/acacia_planks"
+  }
+}

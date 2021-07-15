@@ -1,6 +1,7 @@
 package glitchwitch.decoratives;
 
 import glitchwitch.decoratives.blocks.Cupboard;
+import glitchwitch.decoratives.blocks.Shutters;
 import glitchwitch.decoratives.blocks.TiledRoof;
 import glitchwitch.decoratives.blocks.TiledRoofCap;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
@@ -16,11 +17,30 @@ public class BlockRegistry {
 	public static final TiledRoof TILED_ROOF = new TiledRoof();
 	public static final TiledRoofCap TILED_ROOF_CAP = new TiledRoofCap();
 
+	public static final Shutters OAK_SHUTTERS = new Shutters();
+	public static final Shutters SPRUCE_SHUTTERS = new Shutters();
+	public static final Shutters BIRCH_SHUTTERS = new Shutters();
+	public static final Shutters JUNGLE_SHUTTERS = new Shutters();
+	public static final Shutters ACACIA_SHUTTERS = new Shutters();
+	public static final Shutters DARK_OAK_SHUTTERS = new Shutters();
+	public static final Shutters CRIMSON_SHUTTERS = new Shutters();
+	public static final Shutters WARPED_SHUTTERS = new Shutters();
+
 	public static void registerBlocks() {
 		registerWithBlockItem("birch_cupboard", BIRCH_CUPBOARD);
 		registerWithBlockItem("oak_cupboard", OAK_CUPBOARD);
 		registerWithBlockItem("tiled_roof", TILED_ROOF);
 		registerWithBlockItem("tiled_roof_cap", TILED_ROOF_CAP);
+
+		registerWithBlockItem("oak_shutters", OAK_SHUTTERS);
+		registerWithBlockItem("spruce_shutters", SPRUCE_SHUTTERS);
+		registerWithBlockItem("birch_shutters", BIRCH_SHUTTERS);
+		registerWithBlockItem("jungle_shutters", JUNGLE_SHUTTERS);
+		registerWithBlockItem("acacia_shutters", ACACIA_SHUTTERS);
+		registerWithBlockItem("dark_oak_shutters", DARK_OAK_SHUTTERS);
+		registerWithBlockItem("crimson_shutters", CRIMSON_SHUTTERS);
+		registerWithBlockItem("warped_shutters", WARPED_SHUTTERS);
+
 	}
 
 	@SuppressWarnings("unused")

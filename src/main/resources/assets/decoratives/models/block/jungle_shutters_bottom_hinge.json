@@ -1,0 +1,7 @@
+{
+  "parent": "decoratives:block/parents/shutters_bottom_hinge",
+  "textures": {
+    "bottom": "minecraft:block/jungle_planks",
+    "particle": "minecraft:block/jungle_planks"
+  }
+}

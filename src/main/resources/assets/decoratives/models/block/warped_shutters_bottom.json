@@ -1,0 +1,7 @@
+{
+  "parent": "decoratives:block/parents/shutters_bottom",
+  "textures": {
+    "bottom": "minecraft:block/warped_planks",
+    "particle": "minecraft:block/warped_planks"
+  }
+}

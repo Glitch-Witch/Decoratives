@@ -15,6 +15,14 @@ public class DecorativesClient implements ClientModInitializer {
 
 		BlockRenderLayerMap.INSTANCE.putBlock(BlockRegistry.TILED_ROOF, RenderLayer.getTranslucent());
 		BlockRenderLayerMap.INSTANCE.putBlock(BlockRegistry.TILED_ROOF_CAP, RenderLayer.getTranslucent());
+		BlockRenderLayerMap.INSTANCE.putBlock(BlockRegistry.OAK_SHUTTERS, RenderLayer.getTranslucent());
+		BlockRenderLayerMap.INSTANCE.putBlock(BlockRegistry.SPRUCE_SHUTTERS, RenderLayer.getTranslucent());
+		BlockRenderLayerMap.INSTANCE.putBlock(BlockRegistry.BIRCH_SHUTTERS, RenderLayer.getTranslucent());
+		BlockRenderLayerMap.INSTANCE.putBlock(BlockRegistry.JUNGLE_SHUTTERS, RenderLayer.getTranslucent());
+		BlockRenderLayerMap.INSTANCE.putBlock(BlockRegistry.ACACIA_SHUTTERS, RenderLayer.getTranslucent());
+		BlockRenderLayerMap.INSTANCE.putBlock(BlockRegistry.DARK_OAK_SHUTTERS, RenderLayer.getTranslucent());
+		BlockRenderLayerMap.INSTANCE.putBlock(BlockRegistry.CRIMSON_SHUTTERS, RenderLayer.getTranslucent());
+		BlockRenderLayerMap.INSTANCE.putBlock(BlockRegistry.WARPED_SHUTTERS, RenderLayer.getTranslucent());
 
 		DualModelRegistry.INSTANCE.init();
 	}
