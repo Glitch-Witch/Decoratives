@@ -32,9 +32,11 @@ bin/
 
 run/
 
-src/main/resouces/package.json
-src/main/resouces/package-lock.json
-src/main/resouces/tsconfig.json
-src/main/resources/node_modules
-src/main/resources/assets/decoratives/models/blocks/shingles/generate.js
-src/main/resources/assets/decoratives/models/blocks/shingles/generate.ts
+/src/main/resources/node_modules
+/src/main/resources/assets/decoratives/textures/block/deepslate_tiles.png
+/src/main/resources/assets/decoratives/models/block/shingles/generate.js
+/src/main/resources/assets/decoratives/models/block/shingles/generate.ts
+/src/main/resources/assets/decoratives/textures/block/oak_planks.png
+/src/main/resources/package.json
+/src/main/resources/package-lock.json
+/src/main/resources/tsconfig.json
