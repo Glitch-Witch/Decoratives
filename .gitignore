@@ -31,3 +31,10 @@ bin/
 # fabric
 
 run/
+
+src/main/resouces/package.json
+src/main/resouces/package-lock.json
+src/main/resouces/tsconfig.json
+src/main/resources/node_modules
+src/main/resources/assets/decoratives/models/blocks/shingles/generate.js
+src/main/resources/assets/decoratives/models/blocks/shingles/generate.ts
