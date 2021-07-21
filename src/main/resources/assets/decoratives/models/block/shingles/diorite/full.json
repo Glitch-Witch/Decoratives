@@ -1,0 +1,6 @@
+{
+  "textures": {
+    "wood": "minecraft:block/diorite"
+  },
+  "parent": "decoratives:block/parents/shingles/full"
+}

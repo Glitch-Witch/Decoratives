@@ -1,0 +1,6 @@
+{
+  "textures": {
+    "wood": "minecraft:block/quartz_bricks"
+  },
+  "parent": "decoratives:block/parents/shingles/full"
+}

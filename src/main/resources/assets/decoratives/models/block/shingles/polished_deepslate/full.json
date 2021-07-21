@@ -1,0 +1,6 @@
+{
+  "textures": {
+    "wood": "minecraft:block/polished_deepslate"
+  },
+  "parent": "decoratives:block/parents/shingles/full"
+}

@@ -1,0 +1,6 @@
+{
+  "textures": {
+    "wood": "minecraft:block/nether_bricks"
+  },
+  "parent": "decoratives:block/parents/shingles/outer"
+}

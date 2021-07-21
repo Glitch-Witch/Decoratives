@@ -1,0 +1,6 @@
+{
+  "textures": {
+    "wood": "minecraft:block/red_sandstone_top"
+  },
+  "parent": "decoratives:block/parents/shingles/outer"
+}

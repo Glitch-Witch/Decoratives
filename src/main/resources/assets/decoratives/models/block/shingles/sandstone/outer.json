@@ -1,0 +1,6 @@
+{
+  "textures": {
+    "wood": "minecraft:block/sandstone"
+  },
+  "parent": "decoratives:block/parents/shingles/outer"
+}

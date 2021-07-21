@@ -1,0 +1,6 @@
+{
+  "textures": {
+    "wood": "minecraft:block/deepslate"
+  },
+  "parent": "decoratives:block/parents/shingles/cap"
+}

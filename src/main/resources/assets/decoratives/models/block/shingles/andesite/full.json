@@ -1,0 +1,6 @@
+{
+  "textures": {
+    "wood": "minecraft:block/andesite"
+  },
+  "parent": "decoratives:block/parents/shingles/full"
+}

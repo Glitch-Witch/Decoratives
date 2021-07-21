@@ -1,0 +1,23 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "decoratives:block/shingles/deepslate_bricks/cap",
+      "uvlock": false
+    },
+    "facing=east": {
+      "model": "decoratives:block/shingles/deepslate_bricks/cap",
+      "y": 90,
+      "uvlock": false
+    },
+    "facing=south": {
+      "model": "decoratives:block/shingles/deepslate_bricks/cap",
+      "y": 180,
+      "uvlock": false
+    },
+    "facing=west": {
+      "model": "decoratives:block/shingles/deepslate_bricks/cap",
+      "y": 270,
+      "uvlock": false
+    }
+  }
+}

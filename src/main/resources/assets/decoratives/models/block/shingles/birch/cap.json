@@ -1,0 +1,6 @@
+{
+  "textures": {
+    "wood": "minecraft:block/birch_planks"
+  },
+  "parent": "decoratives:block/parents/shingles/cap"
+}

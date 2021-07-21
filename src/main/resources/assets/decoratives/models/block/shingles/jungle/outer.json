@@ -1,0 +1,6 @@
+{
+  "textures": {
+    "wood": "minecraft:block/jungle_planks"
+  },
+  "parent": "decoratives:block/parents/shingles/outer"
+}

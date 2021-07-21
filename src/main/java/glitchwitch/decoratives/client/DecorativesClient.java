@@ -13,8 +13,8 @@ public class DecorativesClient implements ClientModInitializer {
 		cupboardModel("oak_cupboard");
 		cupboardModel("birch_cupboard");
 
-		BlockRenderLayerMap.INSTANCE.putBlock(BlockRegistry.TILED_ROOF, RenderLayer.getTranslucent());
-		BlockRenderLayerMap.INSTANCE.putBlock(BlockRegistry.TILED_ROOF_CAP, RenderLayer.getTranslucent());
+		BlockRenderLayerMap.INSTANCE.putBlock(BlockRegistry.SHINGLES_OAK_PLANKS_ROOF, RenderLayer.getTranslucent());
+		BlockRenderLayerMap.INSTANCE.putBlock(BlockRegistry.SHINGLES_OAK_PLANKS_ROOF_CAP, RenderLayer.getTranslucent());
 		BlockRenderLayerMap.INSTANCE.putBlock(BlockRegistry.OAK_SHUTTERS, RenderLayer.getTranslucent());
 		BlockRenderLayerMap.INSTANCE.putBlock(BlockRegistry.SPRUCE_SHUTTERS, RenderLayer.getTranslucent());
 		BlockRenderLayerMap.INSTANCE.putBlock(BlockRegistry.BIRCH_SHUTTERS, RenderLayer.getTranslucent());

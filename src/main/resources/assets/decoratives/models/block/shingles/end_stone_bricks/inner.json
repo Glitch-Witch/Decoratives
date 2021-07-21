@@ -1,0 +1,6 @@
+{
+  "textures": {
+    "wood": "minecraft:block/end_stone_bricks"
+  },
+  "parent": "decoratives:block/parents/shingles/inner"
+}

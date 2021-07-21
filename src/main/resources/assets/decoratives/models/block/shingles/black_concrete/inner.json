@@ -1,0 +1,6 @@
+{
+  "textures": {
+    "wood": "minecraft:block/black_concrete"
+  },
+  "parent": "decoratives:block/parents/shingles/inner"
+}

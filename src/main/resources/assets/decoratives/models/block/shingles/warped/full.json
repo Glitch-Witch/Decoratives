@@ -1,0 +1,6 @@
+{
+  "textures": {
+    "wood": "minecraft:block/warped_planks"
+  },
+  "parent": "decoratives:block/parents/shingles/full"
+}

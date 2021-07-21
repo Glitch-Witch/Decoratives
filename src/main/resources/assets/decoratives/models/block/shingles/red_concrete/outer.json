@@ -1,0 +1,6 @@
+{
+  "textures": {
+    "wood": "minecraft:block/red_concrete"
+  },
+  "parent": "decoratives:block/parents/shingles/outer"
+}

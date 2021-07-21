@@ -1,0 +1,6 @@
+{
+  "textures": {
+    "wood": "minecraft:block/polished_granite"
+  },
+  "parent": "decoratives:block/parents/shingles/cap"
+}

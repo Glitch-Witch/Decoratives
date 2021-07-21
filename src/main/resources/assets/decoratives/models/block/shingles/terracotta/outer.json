@@ -1,0 +1,6 @@
+{
+  "textures": {
+    "wood": "minecraft:block/terracotta"
+  },
+  "parent": "decoratives:block/parents/shingles/outer"
+}
