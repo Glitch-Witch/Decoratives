@@ -309,7 +309,7 @@ public class BlockRegistry {
 	}
 
 	@SuppressWarnings("unused")
-	private static void register(Block block, String name) {
+	private static void register(String name, Block block) {
 		Identifier blockID = new Identifier(Decoratives.MODID, name);
 		Registry.register(Registry.BLOCK, blockID, block);
 	}
