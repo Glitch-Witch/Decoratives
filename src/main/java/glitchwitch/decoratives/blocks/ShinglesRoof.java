@@ -7,6 +7,6 @@ import net.minecraft.block.StairsBlock;
 
 public class ShinglesRoof extends StairsBlock {
 	public ShinglesRoof() {
-		super(Blocks.OAK_STAIRS.getDefaultState(), FabricBlockSettings.of(Material.WOOD).nonOpaque());
+		super(Blocks.OAK_STAIRS.getDefaultState(), FabricBlockSettings.of(Material.WOOD).hardness(0.5f).nonOpaque());
 	}
 }

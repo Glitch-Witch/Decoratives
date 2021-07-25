@@ -9,7 +9,7 @@ import net.minecraft.world.WorldView;
 
 public class Shutters extends DoorBlock {
 	public Shutters() {
-		super(FabricBlockSettings.of(Material.WOOD).hardness(1f).nonOpaque());
+		super(FabricBlockSettings.of(Material.WOOD).hardness(0.5f).nonOpaque());
 	}
 
 	@Override

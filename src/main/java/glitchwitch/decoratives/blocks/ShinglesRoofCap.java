@@ -9,11 +9,12 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.world.BlockView;
+
 import org.jetbrains.annotations.Nullable;
 
 public class ShinglesRoofCap extends HorizontalFacingBlock {
 	public ShinglesRoofCap() {
-		super(FabricBlockSettings.of(Material.WOOD).hardness(1f).nonOpaque());
+		super(FabricBlockSettings.of(Material.WOOD).hardness(0.5f).nonOpaque());
 		setDefaultState(
 			this.stateManager.getDefaultState()
 				.with(Properties.HORIZONTAL_FACING, Direction.NORTH)
